@@ -1,0 +1,53 @@
+### Backend (Maven / Spring Boot) ###
+HELP.md
+target/
+**/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Uploaded medical records (patient data, never commit) ###
+mediconnect-backend/data/
+
+### Frontend (Node / Vite) ###
+node_modules/
+dist/
+*.local
+npm-debug.log*
+
+### Secrets ###
+.env
+.env.*
+!.env.example
+
+### Build output ###
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS / Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
